@@ -8,7 +8,9 @@ meta:
     content: raspberry pi raspbeerypi linux cli javascript array methods netherlands amsterdam js ecmascript es6 babel
 ---
 
-<CenterImage imageSrc="pi_wooden.png"></CenterImage>
+<div style="text-align:center">
+<img src="./images/pi_wooden.png" width="300">
+</div>
 
 For a while I wanted a raspberry pi and finally got one with a [PiTFT](https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/resistive-touchscreen-manual-install-calibrate) and a [Waveshare e Paper](https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT) screen.
 
