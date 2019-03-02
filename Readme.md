@@ -16,6 +16,11 @@ Hi,
 I am Tolga, a web developer from Amsterdam. I live in a constant state of *curious*.
 I slap the keyboard and pet the mouse everyday. My code is poetry, meanwhile their's is oh-noetry.
 
+### Find me on 
+[Github](https://github.com/kucukkanat) 
+[Linkedin](https://www.linkedin.com/in/hilmi-tolga-%C5%9Fahin-73664937/) 
+[Twitter](https://twitter.com/kucukkanat) 
+
 ### I :black_heart: (love) : 
 Anything on command line, Git, Mechanical keyboards, Javascript, anything portable, guitars, sailboats
 
