@@ -65,7 +65,7 @@ Plug your keyboard, mouse, monitor via HDMI cable, and insert your SD card.
 Power up your Raspi by plugging the micro usb cable. 
 
 
-You should something like this this on your screen :
+You should see something like this this on your screen :
 
 ![Pi Boot Screen](https://raspberrycoulis.files.wordpress.com/2015/10/raspi2boot.jpg?w=1400)
 
