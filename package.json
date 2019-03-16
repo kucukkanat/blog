@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "vuepress": "^0.14.9"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
   }
 }
