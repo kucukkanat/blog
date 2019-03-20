@@ -2,10 +2,10 @@
 title: How I Setup My Raspberry Pi
 date: 2019-03-20 14:23:00
 meta:
-- name: description
-content: Troubleshooting GPG git commit signing
-- name: keywords
-content: github gitlab signing gpg git pgp linux cli javascript netherlands amsterdam js ecmascript es6 babel
+  - name: description
+    content: Troubleshooting GPG git commit signing
+  - name: keywords
+    content: github gitlab signing gpg git pgp linux cli javascript netherlands amsterdam js ecmascript es6 babel
 ---
 
 ## Troubleshooting GPG git commit signing
