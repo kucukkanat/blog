@@ -93,6 +93,6 @@ Turns out [browserify](https://github.com/browserify/browserify/blob/ae01d90900b
 
 I found out [parcel](https://github.com/parcel-bundler/parcel/blob/master/packages/core/parcel-bundler/src/builtins/index.js#L1) and [webpack](https://github.com/webpack/webpack/blob/573d2da1d946b59ef6990cea0edf31958d13c0d6/lib/node/NodeSourcePlugin.js) use a webpack-core library called `node-libs-browser` to replace those modules with their browser equivalents. 
 
-I couldn't find any explanation about this *feature* in any of their documentation. Even though it bugs me to find out there is some magic happening ebhind the curtains, sometimes it is nice to have those kind of out of the box features. This feature did not only saved me time, but also added fun to this evening! 
+I couldn't find any explanation about this *feature* in any of their documentation. Even though it bugs me to find out there is some magic happening behind the curtains, sometimes it is nice to have those kind of out of the box features. This feature did not only saved me time, but also added fun to this evening! 
 
 Peace!
