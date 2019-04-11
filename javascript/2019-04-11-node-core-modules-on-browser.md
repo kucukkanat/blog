@@ -87,7 +87,7 @@ When I run `node index.js` that `console.log` prints the String `crypto` only. B
 
 Did you see that `../../.config/yarn/global/node_modules/crypto-browserify/index.js` too ? 
 
-I packed up my backpack, kissed me darling mother and went on an adventure of stalking code, sniffing the github repos. Even though I though it was going to be a needle in the haystack I came across some resources which actually revealed the mystery. 
+I packed up my backpack, kissed me darling mother and went on an adventure of stalking code, sniffing the github repos. Even though I thought it was going to be a needle in the haystack I came across some resources which actually revealed the mystery. 
 
 Turns out [browserify](https://github.com/browserify/browserify/blob/ae01d90900b21719e9fef7bedfc4db55ea22b71a/lib/builtins.js) has a `builtins.js` that maps some of the nodejs core modules to their browser equivalents and in build-time, requires them. 
 
