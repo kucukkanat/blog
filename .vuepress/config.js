@@ -14,5 +14,6 @@ module.exports = {
     },
     markdown: {
         linenumbers: true
-    }
+    },
+    ga: "UA-93689139-1"
   }
