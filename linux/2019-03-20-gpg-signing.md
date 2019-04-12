@@ -30,8 +30,8 @@ Standard long key format (recommended)
 
 ```
 [user]
-name = Julian Simioni
-email = julian@simioni.org
+name = Tolga SAHIN
+email = htolgasahin@gmail.com
 signingkey = 0x4CEEB1E5A7FD15E1
 ```
 
