@@ -1,0 +1,15 @@
+---
+title: Fun With Arrays
+date: 2019-03-02 13:00:00
+meta:
+  - name: description
+    content: javascript array methods
+  - name: keywords
+    content: javascript array methods netherlands amsterdam js ecmascript es6 babel
+---
+
+## Fun With Arrays
+
+Not long ago we used to use `lodash` or `underscore` or other functional javascript libraries to do the hard work for us. Here are some 
+tips and tricks with new javascript array methods you can chain for better filtering.
+
