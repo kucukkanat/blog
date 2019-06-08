@@ -10,7 +10,7 @@ meta:
 
 # Slaps the keyboard, pets the mouse
 
-<img src="./images/avatar.png" width="200" style="border-radius: 300px" />
+<img src="./posts/images/avatar.png" width="200" style="border-radius: 300px" />
 
 Hi, 
 I am Tolga, a web developer from Amsterdam. I live in a constant state of *curious*.
