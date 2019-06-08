@@ -7,16 +7,16 @@
     <meta name="description" content="Troubleshooting GPG git commit signing">
     
     <meta name="keywords" content="github gitlab signing gpg git pgp linux cli javascript netherlands amsterdam js ecmascript es6 babel">
-    <link rel="preload" href="/assets/css/0.styles.382af5d5.css" as="style"><link rel="preload" href="/assets/js/app.ac11508e.js" as="script"><link rel="preload" href="/assets/js/5.921e62c9.js" as="script"><link rel="prefetch" href="/assets/js/2.8e1a1a99.js"><link rel="prefetch" href="/assets/js/3.433fee27.js"><link rel="prefetch" href="/assets/js/4.eb5d55b9.js"><link rel="prefetch" href="/assets/js/6.bd72862c.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.382af5d5.css">
+    <link rel="preload" href="/assets/css/0.styles.b965be64.css" as="style"><link rel="preload" href="/assets/js/app.3c5f800b.js" as="script"><link rel="preload" href="/assets/js/6.8fca3489.js" as="script"><link rel="prefetch" href="/assets/js/2.57317719.js"><link rel="prefetch" href="/assets/js/3.d3f6afd0.js"><link rel="prefetch" href="/assets/js/4.9ffab9d9.js"><link rel="prefetch" href="/assets/js/5.d42bba84.js"><link rel="prefetch" href="/assets/js/7.8727a391.js"><link rel="prefetch" href="/assets/js/8.98e38300.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b965be64.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Kucukkanat's Nest</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/" class="sidebar-link">Home</a></li><li><a href="/linux/2019-03-02-how-i-setup-my-pi.html" class="sidebar-link">Starting with RaspberryPi</a></li><li><a href="/linux/2019-03-20-gpg-signing.html" class="active sidebar-link">Signing git commits with GPG</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/linux/2019-03-20-gpg-signing.html#troubleshooting-gpg-git-commit-signing" class="sidebar-link">Troubleshooting GPG git commit signing</a></li></ul></li></ul> </div> <div class="page"> <div class="content"><h2 id="troubleshooting-gpg-git-commit-signing"><a href="#troubleshooting-gpg-git-commit-signing" aria-hidden="true" class="header-anchor">#</a> Troubleshooting GPG git commit signing</h2> <p>As part of setting up a new laptop recently, I was setting up git commit signing.</p> <p>Despite having most of my configs in a git repository or otherwise tracked, I ran into a problem with setting this up.</p> <p>Here’s the error:</p> <div class="language- extra-class"><pre class="language-text"><code>$ git commit
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Kucukkanat's Nest</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/" class="sidebar-link">Home</a></li><li><a href="/posts/how-i-setup-my-pi.html" class="sidebar-link">Starting with RaspberryPi</a></li><li><a href="/posts/gpg-signing.html" class="active sidebar-link">Signing git commits with GPG</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/posts/gpg-signing.html#troubleshooting-gpg-git-commit-signing" class="sidebar-link">Troubleshooting GPG git commit signing</a></li></ul></li><li><a href="/posts/how-to-setup-gpg.html" class="sidebar-link">How to Setup GPG</a></li><li><a href="/posts/node-core-modules-on-browser.html" class="sidebar-link">Native node modules on browser</a></li></ul> </div> <div class="page"> <div class="content"><h2 id="troubleshooting-gpg-git-commit-signing"><a href="#troubleshooting-gpg-git-commit-signing" aria-hidden="true" class="header-anchor">#</a> Troubleshooting GPG git commit signing</h2> <p>As part of setting up a new laptop recently, I was setting up git commit signing.</p> <p>Despite having most of my configs in a git repository or otherwise tracked, I ran into a problem with setting this up.</p> <p>Here’s the error:</p> <div class="language- extra-class"><pre class="language-text"><code>$ git commit
 error: gpg failed to sign the data
 fatal: failed to write commit object
 </code></pre></div><p>And the answer (for me):</p> <p>Make sure the <code>user.signingkey</code> option in your <code>.gitconfig</code> is in the correct format! This is very silly, but there are some easy ways to get it wrong. First, some correct examples.</p> <p>Standard long key format (recommended)</p> <div class="language- extra-class"><pre class="language-text"><code>[user]
-name = Julian Simioni
-email = julian@simioni.org
+name = Tolga SAHIN
+email = htolgasahin@gmail.com
 signingkey = 0x4CEEB1E5A7FD15E1
 </code></pre></div><p>That’s 0x followed by the last 16 characters of your key id. At least as of gnupg 2.2.0 its the standard output of a command like gpg --list-secret-keys</p> <p>Long key format without the hexidecimal prefix</p> <div class="language- extra-class"><pre class="language-text"><code>[user]
 # ...
@@ -40,9 +40,13 @@ export PINENTRY_USER_DATA=&quot;USE_CURSES=1&quot;
 fi
 </code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
         ←
-        <a href="/linux/2019-03-02-how-i-setup-my-pi.html" class="prev">
+        <a href="/posts/how-i-setup-my-pi.html" class="prev">
           Starting with RaspberryPi
-        </a></span> <!----></p></div> </div> <!----></div></div>
-    <script src="/assets/js/app.ac11508e.js" defer></script><script src="/assets/js/5.921e62c9.js" defer></script>
+        </a></span> <span class="next"><a href="/posts/how-to-setup-gpg.html">
+          How to Setup GPG
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.3c5f800b.js" defer></script><script src="/assets/js/6.8fca3489.js" defer></script>
   </body>
 </html>

@@ -5,10 +5,10 @@ module.exports = {
     themeConfig: {
         sidebar: [
             ["/", "Home"],
-            ["general/2019-03-02-how-i-setup-my-pi.html", "Starting with RaspberryPi"],
-            ["general/2019-03-20-gpg-signing.html", "Signing git commits with GPG"],
-            ["general/2019-04-10-how-to-setup-gpg", "How to Setup GPG"],
-            ["javascript/2019-04-11-node-core-modules-on-browser.html", "Native node modules on browser"],
+            ["posts/how-i-setup-my-pi.html", "Starting with RaspberryPi"],
+            ["posts/gpg-signing.html", "Signing git commits with GPG"],
+            ["posts/how-to-setup-gpg", "How to Setup GPG"],
+            ["posts/node-core-modules-on-browser.html", "Native node modules on browser"],
         ],
     //   logo: '/assets/img/logo.png',
     },
