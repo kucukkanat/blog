@@ -10,6 +10,11 @@ meta:
 
 ## Javascript bundler mysteries! Can we do that on browser ? 
 
+#### Important Note! 
+Automatic Node.js polyfills are removed with webpack 5!!! [check it here](https://blog.logrocket.com/new-features-in-webpack-5-2559755adf5e/)
+
+--------
+
 So, I was working on some experimental crypto stuff today when I literally became the guy on the famous meme myself. 
 
 
